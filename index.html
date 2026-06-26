@@ -3,8 +3,9 @@
 <head>
     <style>
         body {
-            /* এখানে ছবির নাম দেওয়া হয়েছে */
+            /* ছবির ফাইলটির নাম যেন ঠিক এটাই হয় */
             background-image: url('1000273155.jpg');
+            background-color: #000000; /* ছবি না পেলেও কালো ব্যাকগ্রাউন্ড দেখাবে */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -19,14 +20,16 @@
         h1 {
             font-size: 40px;
             text-shadow: 0 0 10px #00FF00;
+            color: #00FF00;
         }
         .box {
             border: 2px dashed #00FF00;
             display: inline-block;
             padding: 20px;
             margin-top: 30px;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.8); /* বক্সটি কালো ও স্বচ্ছ হবে */
             box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+            color: #00FF00;
         }
         .blink {
             animation: blinker 1s linear infinite;
